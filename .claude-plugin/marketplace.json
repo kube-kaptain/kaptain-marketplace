@@ -1,0 +1,21 @@
+{
+  "name": "kaptain-marketplace",
+  "owner": {
+    "name": "kube-kaptain"
+  },
+  "metadata": {
+    "description": "Kaptain general purpose build and Kubernetes deploy system — skills and plugins for LLM coding agents",
+    "version": "1.0.1"
+  },
+  "plugins": [
+    {
+      "name": "kaptain-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/kube-kaptain/kaptain-skills.git"
+      },
+      "description": "Skills for the Kaptain general purpose build and Kubernetes deploy system — environment setup, architecture, build pipelines, configuration, and day to day operations.",
+      "version": "1.0.1"
+    }
+  ]
+}
